@@ -14,12 +14,12 @@ license=("GPL")
 depends=("${pkgname%-cli}" "python-gobject")
 install="${pkgname}.install"
 source=(
-  "${pkgname}-${pkgver}.py::https://linux.${pkgname%-cli}.com/packages/${pkgname%-cli}.py"
+  "${pkgname}-${pkgver}.py::https://www.${pkgname%-cli}.com/download?dl=packages/${pkgname%-cli}.py"
   "${pkgname%-cli}d-fallback.patch"
 )
 sha256sums=(
-  "e8fecc095561bf4a30a9889e25c3afa40c01e1554f3392a3b949b02ee1cf19ca"
-  "9ae702ebf0699ac56fbf99c577ddaf22701dfd1c9e40d6ec5ac56475c2636f48"
+  "7889ce1d872bce85b3e94b929abacd6086e7f378644519fd8ebd8acf0316e59f"
+  "fb862b534730f0765b4317ca5d0816f42d5a4be0018004c5b18fde63524fdb14"
 )
 
 prepare() {
