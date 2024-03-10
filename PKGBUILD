@@ -5,7 +5,7 @@
 # Contributor: carstene1ns <arch carsten-teibes de>
 
 pkgname=dropbox-cli
-pkgver=2023.09.06
+pkgver=2024.1.22
 pkgrel=1
 pkgdesc="Command line interface for Dropbox"
 arch=("any")
